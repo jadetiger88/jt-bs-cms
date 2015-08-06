@@ -2,6 +2,12 @@ body {
 	margin-top: 70px;
 }
 
+.jt .navbar-brand, 
+.jt .navbar-brand:hover, 
+.jt .green {
+	color: green;
+}
+
 .jt .table {
 	margin-bottom: 25px;
 }
