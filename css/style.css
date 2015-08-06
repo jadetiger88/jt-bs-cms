@@ -1,0 +1,16 @@
+body {
+	margin-top: 70px;
+}
+
+.jt .table {
+	margin-bottom: 25px;
+}
+
+footer {
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	color: #fff;
+	background-color: #222222; 	
+	margin-top: 30px;
+}
