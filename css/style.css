@@ -12,6 +12,15 @@ body {
 	margin-bottom: 25px;
 }
 
+.jt .list-group .active {
+	background-color: #F9F9F9;
+	color: #000;
+}
+
+.jt #edit-icons {
+	margin-top: 30px;
+}
+
 footer {
 	line-height: 50px;
 	height: 50px;

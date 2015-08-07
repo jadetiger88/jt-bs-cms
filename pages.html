@@ -28,8 +28,8 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Dashboad</a></li>
-            <li><a href="pages.html">Pages</a></li>
+            <li><a href="index.html">Dashboad</a></li>
+            <li class="active"><a href="pages.html">Pages</a></li>
             <li><a href="categories.html">Categories</a></li>
             <li><a href="users.html">Users</a></li>
           </ul>
@@ -56,87 +56,99 @@
         <div class="row">
           <div class="col-sm-4">
               <ul class="list-group">
-                <li class="list-group-item active"><i class="glyphicon glyphicon-dashboard"></i> Dashboard</li>
-                 <li class="list-group-item"><i class="glyphicon glyphicon-file"></i> Pages</li>
+                <li class="list-group-item"><i class="glyphicon glyphicon-dashboard"></i> Dashboard</li>
+                 <li class="list-group-item active"><i class="glyphicon glyphicon-file"></i> Pages</li>
                 <li class="list-group-item"><i class="glyphicon glyphicon-folder-open"></i> Categories</li>
                 <li class="list-group-item"><i class="glyphicon glyphicon-user"></i> Users</li>
               </ul>
-           </div>
+          </div>
           <div class="col-sm-8">
-            <h1 class="page-header"><i class="glyphicon glyphicon-dashboard"></i> Dashboard</h1>
-            <h2>Latest Pages</h2>
-              <table class="table table-striped">
+            <div class="row">
+              <div class="col-sm-6">
+                <h1 class="page-header"><i class="glyphicon glyphicon-file"></i> Pages</h1>
+              </div>
+              <div class="col-sm-6">
+                <div class="btn-group pull-right" id="edit-icons" role="group" aria-label="...">
+                  <a type="button" class="btn btn-default">
+                    <i class="glyphicon glyphicon-plus"></i> New</a>
+                  <a type="button" class="btn btn-default">
+                    <i class="glyphicon glyphicon-pencil"></i> Edit</a>
+                  <a type="button" class="btn btn-default">
+                    <i class="glyphicon glyphicon-remove"></i> Delete</a>
+                </div>
+              </div>
+            </div>
+
+            <ol class="breadcrumb">
+                <li><a href="index.html">Dashboard</a></li>
+               <li class="active">Pages</li>
+            </ol>
+
+            <table class="table table-striped">
                 <tr>
+                  <td></td>
                   <th>Page Title</th>
                   <th>Category</th>
                   <th>Author</th>
                 </tr>
                 <tr>
+                  <td><input type="checkbox"></td>
                   <td>Sample Page One</td>
                   <td>Category One</td>
                   <td>Quis</td>
                 </tr>
                 <tr>
-                  <td>Sample Page two</td>
+                  <td><input type="checkbox"></td>
+                   <td>Sample Page two</td>
                   <td>Category Three</td>
                   <td>Himenaeos</td>
                 </tr>
                 <tr>
-                  <td>Sample Page Three</td>
+                  <td><input type="checkbox"></td>
+                   <td>Sample Page Three</td>
                   <td>Category Four</td>
                   <td>Sollicitudin</td>
                 </tr>
                 <tr>
-                  <td>Sample Page Four</td>
+                  <td><input type="checkbox"></td>
+                   <td>Sample Page Four</td>
                   <td>Category One</td>
                   <td>Suspendisse</td>
                 </tr>
                 <tr>
-                  <td>Sample Page Five</td>
+                  <td><input type="checkbox"></td>
+                   <td>Sample Page Five</td>
                   <td>Category Two</td>
                   <td>Vestibulum</td>
                 </tr>
                 <tr>
+                   <td><input type="checkbox"></td>
                   <td>Sample Page Six</td>
                   <td>Category Six</td>
                   <td>Malesuada</td>
                 </tr>
-              </table>
-              <a class="btn btn-default" href="page.html">View all</a>
-             <h2>Latest Users</h2>
-              <table class="table table-striped">
-                <tr>
-                  <th>Name</th>
-                  <th>Email</th>
-                  <th>Group</th>
-                </tr>
-                <tr>
-                  <td>Malesuada</td>
-                  <td>Malesuada@gmail</td>
-                  <td>Admin</td>
-                </tr>
-                <tr>
-                  <td>Himenaeos</td>
-                  <td>Himenaeos@gmail</td>
-                  <td>Admin</td>
-                </tr>
-                <tr>
-                  <td>Sollicitudin</td>
-                  <td>Sollicitudin@gmail</td>
-                  <td>Register</td>
-                </tr>
-                <tr>
-                  <td>Suspendisse</td>
-                  <td>Suspendisse@gmail</td>
-                  <td>Unregister</td>
-                </tr>
-                <tr>
-                  <td>Vestibulum</td>
-                  <td>Vestibulum@gmail</td>
-                  <td>Admin</td>
-                </tr>
-              </table>
-              <a class="btn btn-default" href="page.html">View all</a>
+            </table>
+
+            <nav>
+              <ul class="pagination">
+                <li>
+                  <a href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li>
+                  <a href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>     
+
           </div>
         </div>
       </div>
